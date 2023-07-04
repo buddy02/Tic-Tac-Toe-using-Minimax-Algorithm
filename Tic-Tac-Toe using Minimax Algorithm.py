@@ -59,6 +59,7 @@ def main():
         ConstBoard(board)
         User1Turn(board)
   x = analyzeboard(board)
+  ConstBoard(board)
   if(x==0):
     print("DRAW!!")
   if(x==1):
